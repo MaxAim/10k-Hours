@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F8F7F9;
+    height: 100%;
+    background-color: black;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B2D42;
+    margin: 5% 0;
+    border-radius: 10px;
+    max-width: 30rem;
+    min-width: 25rem;
+    height: auto;
+}
+
+#newTask{
+    margin: 0;
+    margin-bottom: 1rem;
+    height: 5rem;
+    padding: 0;
+}
+
+#newTask button{
+    width: 99%;
+    height: 99%;
+    background-color: #2B2D42;
+    border-radius: 10px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: inherit;
+}
+
+#newTask input{
+    display: none;
+}
+
+#name{
+    width: 90%;
+    height: 10rem;
+    margin: 1rem;
+}
+
+h1 {
+    color: #92DCE5;
+    text-align: center;
+    margin: 2.2rem 0;
+    font-size: 3rem;
+    overflow-wrap: break-word;
+    max-width: 20rem;
+    max-height: 5rem;
+    scrollbar-width: thin;
+}
+
+.digit {
+    font-size: 3rem;
+    color: inherit;
+}
+
+.txt {
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+#buttons {
+    margin: 3rem 0;
+    display: flex;
+}
+
+.btn {
+    margin: 0px 1rem;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 3.5rem;
+    transition: 0.5s;
+    padding: 0.5rem;
+}
+
+.start {
+    color: #009779;
+    background-color: black;
+    font-size: 4.5rem;
+    padding: 0;
+}
+
+.stop {
+    background-color: #0e85fc;
+    background-color: #0e85fc;
+    font-size: 4.5rem;
+    padding: 0;
+}
+
+.reset {
+    background-color: #c91400;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.delete{
+    background-color: white;
+    color: black;
+}
