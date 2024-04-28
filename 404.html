@@ -1,3 +1,24 @@
----
-permalink: /index.html
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Design Stopwatch using HTML CSS and JavaScript</title>
+	<script src="https://kit.fontawesome.com/cc0fb5330a.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="timers"></div>
+	<div class="container" id="newTask">
+		<input type="text" id="name" placeholder="Create a new task stopwatch" autocomplete="off" maxlength="500">
+		<button onclick="addTask(this)" id="plus">+</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
